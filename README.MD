@@ -1,7 +1,4 @@
-- Description:
-
-A couple of Cmdlets leveraging EWS API (In case Exchange Managed API access is limited) for performing specific enumeration/exploitation tasks
-on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
+- Description: A couple of Cmdlets leveraging EWS API (In case Exchange Managed API access is limited) for performing specific enumeration/exploitation tasks on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
 
 	- Retrieving basic statistics about mailboxes, generating statistics charts for compromized accounts and average mail data size that could be exfiltrated which can be included in the final RT report.
 	- Performing lookups for Mailboxes content based on specific criteria of keywords (credentials, passwords ..etc).
@@ -10,13 +7,13 @@ on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engageme
 	- Generates a custom html page to be used as home page for exploiting CVE-2017-11774 (not necessarily if "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\EnableRoamingFolderHomepages" is set to 1)
 	- Set a given user outlook folders' home page & Verify home page is properly set.
 	
-Upcoming sub-features:
+- TODO-List:
 
 	Statistics/Charts:
 	 - Generating Exfiltrated (supposedly) Mail data file size per domain/subdomain (bar chart) (in case an organization has many deployed domains/subdomains exmaple: ae.xcorp.com, uk.xcorp.com)
 	 - Organization Domains/Subdomains with highest numbers of compromized accounts(bar chart)
 	 
-	Others:
+- Others:
 	
 	 - Leverage accounts with impersonation privileges for login in on multiple mailboxes and retrieving maliboxes statistics, performing searches/lookups based specific keywords.
 	 - Set home page for a specific number of users (dictionary in a specific format) & Verify pages are properly set.
@@ -31,15 +28,16 @@ Upcoming sub-features:
 	
 - Requirements:
 
- - NET 3.5: https://www.microsoft.com/en-us/download/details.aspx?id=21
- - Microsoft Chart Controls for Microsoft .NET Framework 3.5: https://www.microsoft.com/en-us/download/details.aspx?id=14422
- - Microsoft Exchange Web Services Managed API 2.2: https://www.microsoft.com/en-us/download/details.aspx?id=42951
- - Powershell Version 5+ (WMF) 5.1 Download:  https://www.microsoft.com/en-us/download/details.aspx?id=54616
+	- NET 3.5: https://www.microsoft.com/en-us/download/details.aspx?id=21
+	- Microsoft Chart Controls for Microsoft .NET Framework 3.5: https://www.microsoft.com/en-us/download		
+	 /details.aspx?id=14422
+	- Microsoft Exchange Web Services Managed API 2.2: https://www.microsoft.com/en-us/download/details.aspx?id=42951
+ 	- Powershell Version 5+ (WMF) 5.1 Download:  https://www.microsoft.com/en-us/download/details.aspx?id=54616
 
 - Usage:
 
 Import-Module .\EWS-RT.psd1
-Get-Command -Module EWS-RT
+Get-Command -Module EWS-RT (List of Commands)
 Get-Help <<CMDLET>> -Examples
 
 
