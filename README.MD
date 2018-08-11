@@ -40,6 +40,6 @@
 
 	- Import-Module .\EWS-RT.psd1
 	- Get-Command -Module EWS-RT (List of Commands)
-	- Get-Help <<CMDLET>> -Examples
+	- Get-Help <CMDLET> -Examples
 
 
