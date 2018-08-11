@@ -1,4 +1,4 @@
-- A couple of Cmdlets leveraging EWS API (In case Exchange Managed API access is limited) for performing specific enumeration/exploitation tasks on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
+- A couple of Cmdlets leveraging EWS API (In case access over MAPI is limited) for performing specific enumeration/exploitation tasks on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
 
 	- Retrieving basic statistics about mailboxes, generating statistics charts for compromized accounts 
     	and average mail data size that could be exfiltrated which can be included in the final RT report.
