@@ -12,7 +12,7 @@
 - TODO-List:
 
 	Statistics/Charts:
-	 - Generating Exfiltrated (supposedly) Mail data file size per domain/subdomain (bar chart) (in case an organization has many deployed domains/subdomains exmaple: ae.xcorp.com, uk.xcorp.com)
+	 - Generating The avrage exfiltrated mail data file statistics per domain/subdomain (bar chart) (useful in case the target company/organization has many deployed domains/subdomains exanple: ae.xcorp.com, uk.xcorp.com)
 	 - Organization Domains/Subdomains with highest numbers of compromized accounts(bar chart)
 	 
 - Others:
