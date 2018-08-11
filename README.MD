@@ -1,11 +1,13 @@
 A couple of Cmdlets leveraging EWS API (In case Exchange Managed API access is limited) for performing specific enumeration/exploitation tasks on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
 
-	- Retrieving basic statistics about mailboxes, generating statistics charts for compromized accounts and average mail data size that could be exfiltrated which can be included in the final RT report.
-	- Performing lookups for Mailboxes content based on specific criteria of keywords (credentials, passwords ..etc).
-	- Retrieving the global address list for later password spraying
-	- Impersonating other mailboxes using privileged account (Unfortunately no way to list users roles/permissions via EWS)
-	- Generates a custom html page to be used as home page for exploiting CVE-2017-11774 (not necessarily if "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\EnableRoamingFolderHomepages" is set to 1)
-	- Set a given user outlook folders' home page & Verify home page is properly set.
+   - Retrieving basic statistics about mailboxes, generating statistics charts for compromized accounts 
+    and average mail data size that could be exfiltrated which can be included in the final RT report.
+   - Performing lookups for Mailboxes content based on specific criteria of keywords (credentials, passwords ..etc).
+   - Retrieving the global address list for later password spraying
+   - Impersonating other mailboxes using privileged account (Unfortunately no way to list users roles/permissions via EWS)
+   - Generates a custom html page to be used as home page for exploiting CVE-2017-11774 (not necessary if
+     "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\EnableRoamingFolderHomepages" is set to 1)
+   - Set a given user outlook folders' home page & Verify home page is properly set.
 	
 - TODO-List:
 
