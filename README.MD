@@ -1,4 +1,4 @@
-- Description: A couple of Cmdlets leveraging EWS API (In case Exchange Managed API access is limited) for performing specific enumeration/exploitation tasks on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
+Description: A couple of Cmdlets leveraging EWS API (In case Exchange Managed API access is limited) for performing specific enumeration/exploitation tasks on Exchange Servers (Office365, Premises-based Servers ..etc) during RT engagements;
 
 	- Retrieving basic statistics about mailboxes, generating statistics charts for compromized accounts and average mail data size that could be exfiltrated which can be included in the final RT report.
 	- Performing lookups for Mailboxes content based on specific criteria of keywords (credentials, passwords ..etc).
@@ -36,8 +36,8 @@
 
 - Usage:
 
-Import-Module .\EWS-RT.psd1
-Get-Command -Module EWS-RT (List of Commands)
-Get-Help <<CMDLET>> -Examples
+	1- Import-Module .\EWS-RT.psd1
+	2- Get-Command -Module EWS-RT (List of Commands)
+	3- Get-Help <<CMDLET>> -Examples
 
 
