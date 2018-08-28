@@ -19,8 +19,7 @@
 	
 	 - Leverage accounts with impersonation privileges for login in on multiple mailboxes and retrieving maliboxes statistics, performing searches/lookups based specific keywords.
 	 - Set home page for a specific number of users (dictionary in a specific format) & Verify pages are properly set.
-	 - Set home page for a specific number of users (dictionary in a specific format) 
-	 - Trigering VBSCRIPT code execution (To figure out, via rules may be still need to confirm if EWS API allows to do so)
+	 - Triggering VBSCRIPT code execution (To figure out, via rules may be still need to confirm if EWS API allows to do so)
      - If Web server SSH acccess (to the web server) is provided, script should automate homepage generation, hosting on web server and setting homepage for a given number of users outlook folders.
 	 - Leveraging Powershell Jobs to speed up certain tasks.
 	 
