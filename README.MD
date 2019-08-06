@@ -12,12 +12,12 @@
 - TODO-List:
 
 	Statistics/Charts:
-	 - Generating The avrage exfiltrated mail data file statistics per domain/subdomain (bar chart) (useful in case the target company/organization has many deployed domains/subdomains exanple: ae.xcorp.com, uk.xcorp.com)
+	 - Generating the average exfiltrated mail data size statistics per domain/subdomain (bar chart) (useful in case the target company/organization has many deployed domains/subdomains exanple: ae.xcorp.com, uk.xcorp.com)
 	 - Organization Domains/Subdomains with highest numbers of compromized accounts(bar chart)
 	 
 - Others:
 	
-	 - Leverage accounts with impersonation privileges for login in on multiple mailboxes and retrieving maliboxes statistics, performing searches/lookups based specific keywords.
+	 - Leverage accounts with impersonation privileges to login into multiple mailboxes and retrieving maliboxes statistics, performing searches/lookups based on specific keywords.
 	 - Set home page for a specific number of users (dictionary in a specific format) & Verify pages are properly set.
 	 - Triggering VBSCRIPT code execution (To figure out, via rules may be still need to confirm if EWS API allows to do so)
      - If Web server SSH acccess (to the web server) is provided, script should automate homepage generation, hosting on web server and setting homepage for a given number of users outlook folders.
