@@ -17,10 +17,10 @@ GUID = 'b5d12680-9647-11e8-9eb6-529269fb1459'
 Author = 'Mohamed El Azaar'
 
 # Company or vendor of this module
-CompanyName = 'FireEye'
+CompanyName = 'Mandiant'
 
 # Copyright statement for this module
-Copyright = '(c) 2017 Mohamed El Azaar. All rights reserved.'
+Copyright = '(c) 2018. All rights reserved.'
 
 # Description of the functionality provided by this module
 # Description = 'Couple of EWS Powershell scripts for carrying out specific tasks, check examples/help'
